@@ -532,7 +532,7 @@
         center: dataOptions.center || false,
         dots: dataOptions.dots || false,
         nav: dataOptions.nav || false,
-        navText: ['<i class="hc-angle-left"></i>', '<i class="hc-angle-right"></i>'],
+        navText: ['<i><img src="images/left.png" style="height: 20px;"></i>', '<i><img src="images/right.png" style="height: 20px;"></i>'],
         margin: dataOptions.margin || 0,
         autoplay: dataOptions.autoplay || false,
         responsiveClass: true,
