@@ -37,8 +37,13 @@
   01
   Common Styles
 */
+
+@font-face {
+  font-family: gingerpro;
+  src: url(fonts/F37GingerPro-Regular.otf);
+}
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'gingerpro', sans-serif;
   color: #6d6d6d;
   font-weight: 400;
   font-size: 15px;
