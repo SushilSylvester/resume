@@ -3159,7 +3159,7 @@ section.dark-bg .text-box.outlined {
   background-color: #333;
   border-color: #333;
 }
-#footer-widgets .widget .social-list > li.social-item-flickr > a:hover {
+# -widgets .widget .social-list > li.social-item-flickr > a:hover {
   background-color: #0063dc;
   border-color: #0063dc;
 }
@@ -3187,8 +3187,8 @@ section.dark-bg .text-box.outlined {
 }
 #footer {
   position: relative;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #1b1b1d;
   z-index: 10;
   color: #fff;
@@ -3197,6 +3197,7 @@ section.dark-bg .text-box.outlined {
   text-align: center;
   font-family: 'Quattrocento', serif;
   color: #ccc;
+  font-size: 12px;
 }
 #footer .copy-text p {
   margin: 0;
@@ -3262,7 +3263,7 @@ section.dark-bg .timeline .timeline-content:before {
   position: absolute;
   width: 1px;
   left: 0;
-  top: -120px;
+  top: -100px;
   bottom: -120px;
   background-color: #e7e7e7;
 }
@@ -5711,6 +5712,7 @@ form.register {
   27
   CSS Fixes
 */
+
 .colored-bg .icon-box > i {
   color: #fff;
 }
@@ -6227,7 +6229,8 @@ form.register {
     background-color: transparent;
   }
   #aside-nav .navigation-menu > li.menu-item-has-children > a:after {
-    content: "\e00a";
+    /*content: "\e00a";*/
+    background-image: url(images/right-arrow.png);
     font-family: "hodyicons";
     position: absolute;
     right: 35px;
