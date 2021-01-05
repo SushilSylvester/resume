@@ -478,8 +478,8 @@
         animation: dataOptions.animation === 'slide' ? 'slide' : 'fade',
         controlNav: dataOptions.controlNav === true ? true : false,
         directionNav: dataOptions.directionNav === true ? true : false,
-        prevText: '<img src="images/left-arrow.png">',
-        nextText: '<img src="images/right-arrow.png">',
+        prevText: '<i class="hc-arrow-left"></i>',
+        nextText: '<i class="hc-arrow-right"></i>',
       };
 
       options.start = function () {
@@ -532,10 +532,9 @@
         center: dataOptions.center || false,
         dots: dataOptions.dots || false,
         nav: dataOptions.nav || false,
-        //navText: ['<i class="hc-angle-left"></i>', '<i class="hc-angle-right"></i>'],
-        navText: ['<img src="images/left-arrow.png">', '<img src="images/right-arrow.png">'],
+        navText: ['<i class="hc-angle-left"></i>', '<i class="hc-angle-right"></i>'],
         margin: dataOptions.margin || 0,
-        autoplay: dataOptions.autoplay || true,
+        autoplay: dataOptions.autoplay || false,
         responsiveClass: true,
         responsive:{
           0:{
@@ -555,7 +554,7 @@
       }
 
       if (options.autoplay) {
-        options.autoplayTimeout = dataOptions.autoplayTimeout || 100;
+        options.autoplayTimeout = dataOptions.autoplayTimeout || 2000;
         options.autoplayHoverPause = true;
       }
 
@@ -584,9 +583,9 @@
       template += '<div class="v-center">';
       template += '<div class="gallery-image">';
       template += '<a href="#" id="gallery-close"><i class="hc-close"></i></a>';
-      template += '<a href="#" class="gallery-control gallery-prev"></a>';
+      template += '<a href="#" class="gallery-control gallery-prev"><i class="hc-angle-left"></i></a>';
       template += '<img src="'+imagesArray[imagesArray.indexOf(image)]+'" alt="">';
-      template += '<a href="#" class="gallery-control gallery-next"></a>';
+      template += '<a href="#" class="gallery-control gallery-next"><i class="hc-angle-right"></i></a>';
       template += '</div>';
       template += '</div>';
       template += '</div>';
