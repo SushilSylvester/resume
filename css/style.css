@@ -6232,7 +6232,6 @@ form.register {
   #aside-nav .navigation-menu > li.menu-item-has-children > a:after {
     /*content: "\e00a";*/
     background-image: url(images/right-arrow.png);
-    font-family: "hodyicons";
     position: absolute;
     right: 35px;
     font-size: 8px;
@@ -6639,8 +6638,10 @@ form.register {
     color: #0b5879;
   }
   #aside-nav .navigation-menu > li.menu-item-has-children > a:after {
-    content: "\e00e";
-    font-family: "hodyicons";
+    background-image: url(images/right-arrow.png);
+    position: absolute;
+    right: 35px;
+    font-size: 8px;
     margin-left: 3px;
   }
   #aside-nav .navigation-menu > li .submenu {
