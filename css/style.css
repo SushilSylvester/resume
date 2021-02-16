@@ -3305,7 +3305,7 @@ section.dark-bg .timeline .timeline-content:before {
 .timeline > li .timeline-content h4 {
   margin-top: 0;
   margin-bottom: 10px;
-  font-size: 12px;
+  font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
@@ -3314,7 +3314,7 @@ section.dark-bg .timeline .timeline-content:before {
   margin-top: 0;
   margin-bottom: 5px;
   color: #0b5879;
-  font-size: 11px;
+  font-size: 13px;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.05em;
